@@ -1,9 +1,9 @@
 
 let userChoice = prompt("Do you choose Rock, Paper, or Scissors?");
 let computerChoiceArray=["Rock","Paper","Scissors"];
-console.log(computerChoiceArray[0]);
-console.log(computerChoiceArray[1]);
-console.log(computerChoiceArray[2]);
+// console.log(computerChoiceArray[0]);
+// console.log(computerChoiceArray[1]);
+// console.log(computerChoiceArray[2]);
 
 
 let randomNum=Math.floor(Math.random() * 3);
@@ -36,16 +36,18 @@ function compare(choice1, choice2) {
         }
     }
     if (choice1 === "Paper") {
-        if (choice2 === "Rock");
+        if (choice2 === "Rock"){
             return ('Paper Wins!');
         } else {
             return ('Scissors Wins!');
         }
+    }
     if (choice1 === "Scissors") {
-            if (choice2 === "Paper");
+            if (choice2 === "Paper"){
                 return ('Scissors Wins!');
         } else {
             return ('Rock Wins!');
+        }
     }
 }
 

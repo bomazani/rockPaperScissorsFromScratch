@@ -11,12 +11,39 @@
 
 <body>
     <div>
-        <div class="btn-group">
+        <div id="instrux"></div>
+        <br />
+        <!-- <div class="btn-group">
             <button>Rock</button>
             <button>Paper</button>
             <button>Scissors</button>
         </div>
-        <br />
+        <br /> -->
+        <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary active">
+                  <input type="radio" name="options" id="option1" checked> Rock
+                </label>
+                <label class="btn btn-primary">
+                  <input type="radio" name="options" id="option2"> Paper
+                </label>
+                <label class="btn btn-primary">
+                  <input type="radio" name="options" id="option3"> Scissors
+                </label>
+              </div>
+              <br/>
+              <!-- <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" checked> Rock
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option2" autocomplete="off"> Paper
+                    </label>
+                    <label class="btn btn-secondary">
+                      <input type="radio" name="options" id="option3" autocomplete="off"> Scissors
+                    </label>
+                  </div> -->
+                  <br/>
+
         <!-- <div class="btn-group btn-group-justified">
         <div class="btn-group">
             <button type="button" class="btn btn-primary">Apple</button>
@@ -34,18 +61,14 @@
         <a href="#" class="btn btn-primary">Samsung</a>
         <a href="#" class="btn btn-primary">Sony</a>
     </div> -->
-        <div class="results">
-
-        </div>
-
-        <div class="play-again">
+        <br />
+        <div id="results"></div>
+        <br />
+        <br />
+        <div class="play-again" type="reset">
             <button>Play Again!</button>
         </div>
     </div>
-</body>
-</body>
-
-
 <script type="text/javascript" src="script.js"></script>
 </body>
 

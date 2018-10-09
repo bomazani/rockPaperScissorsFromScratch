@@ -1,26 +1,12 @@
 
 let userChoice = prompt("Do you choose Rock, Paper, or Scissors?");
 let computerChoiceArray=["Rock","Paper","Scissors"];
-// console.log(computerChoiceArray[0]);
-// console.log(computerChoiceArray[1]);
-// console.log(computerChoiceArray[2]);
-
 
 let randomNum=Math.floor(Math.random() * 3);
 let computerChoice = computerChoiceArray[randomNum];
 
-
-
-// console.log(userChoice);
-// console.log(randomNum);
-
-// console.log(computerChoice);
-
 let choice1 = userChoice;
 let choice2 = computerChoice;
-// let choice2 = computerChoiceArray[0];
-// let choice2 = computerChoiceArray[1];
-// let choice2 = computerChoiceArray[2];
 console.log(choice1);
 console.log(choice2);
 

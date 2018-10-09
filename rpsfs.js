@@ -52,3 +52,4 @@ function compare(choice1, choice2) {
 }
 
 console.log(compare(choice1, choice2));
+document.write(compare(choice1,choice2));
